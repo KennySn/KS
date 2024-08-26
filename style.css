@@ -1,0 +1,110 @@
+/* Crea una nueva fuente, define su nombre y su hubicacion */
+@font-face {
+  font-family: 'ANDYB';
+  src: url('assets/text_font/ANDYB.ttf') format('truetype');
+}
+
+body {
+  font-family: 'ANDYB', sans-serif;
+  background-color: #313338;
+  text-align: center;
+}
+
+/* Estilo de los objetos principales de la web */
+#titulo-principal {
+  color: #D2691E;
+}
+
+#texto-terminos {
+  color: #FFFFFF;
+}
+
+#Imagen-chimuelo {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+#Boton-Inicio {
+  position: relative ;
+      top: 10px;
+      left: -0px;
+      background-color: #4CAF50; /* Color de fondo */
+      border: none; /* Sin borde */
+      color: white; /* Color del texto */
+      padding: 15px 32px; /* Espaciado dentro del botón */
+      text-align: center; /* Alineación del texto */
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px; /* Tamaño del texto */
+      border-radius: 8px; /* Bordes redondeados */
+      transition-duration: 0.4s; /* Duración de la transición al pasar el cursor */
+      cursor: pointer; /* Cambia el cursor al pasar el cursor sobre el botón */
+    }
+
+#gallery {
+  width: 80%; /* Ajusta el ancho al 80% del contenedor padre */
+  max-width: 300px; /* Establece un ancho máximo de 1000px para que no crezca demasiado en pantallas grandes */
+  max-height: 600px; /* Establece una altura máxima de 600px para evitar que se expanda excesivamente */
+  margin: 0px; /* Agrega margen alrededor del elemento gallery para mantenerlo alejado del borde del body */
+  padding: 0px; /* Agrega relleno para separar el contenido del borde del elemento gallery */
+}
+
+/* Estilos de la galeria  */
+.gallery {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  text-align: left;
+}
+
+.gallery h2 {
+  color: #D2691E;
+  position: relative;
+  top: 20px; /* Mueve el texto hacia abajo 10 píxeles con respecto a su posición inicial */
+  left: center; /* Mueve el texto hacia la derecha 20 píxeles con respecto a su posición inicial */
+}
+
+.gallery p {
+  color: #FFFFFF;
+}
+
+.gallery img {
+  width: 60%;
+}
+/* Estilo de los botones de la galeria */
+.gallery button {
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px;
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+}
+
+.titulo-galeria {
+  background-color: #24242c; /* Color de fondo del contenedor */
+  color: #ffffff; /* Color del texto dentro del contenedor */
+  border-radius: 10px; /* Añade esquinas redondeadas al contenedor */
+  margin: 20px 0; /* Margen superior e inferior para separar el contenedor */
+  text-align: center;
+}
+
+  .descripcion-server {
+  background-color: #24242c;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px;
+  position: fixed;
+  top: 11%;
+  left: 70%;
+}
+  
